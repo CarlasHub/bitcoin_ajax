@@ -1,0 +1,73 @@
+body{
+height: 100vh;
+background: url("https://images.pexels.com/photos/844124/pexels-photo-844124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") center no-repeat;
+background-size: cover;
+}
+.priceWrap{
+  border: white 2px solid;
+  width: 70%;
+  height: 30px;
+  position: relative;
+  z-index: 1000;
+  margin: auto;
+  
+}
+#price{
+  color: yellow;
+  position:relative;
+  z-index: 1000;
+  font-size: 1.8em;
+  
+}
+select{
+  z-index:1000;
+  position: relative;
+}
+option{
+  font-weight: 700;
+  color:#1C1E2A;
+}
+#container{
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  width: 50%;
+  height: 50vh;
+  z-index: 100;
+  position: relative;
+  top: 10%;
+  margin: auto;
+  opacity: 0.8;
+  text-align: center;
+  padding: 70px 0;
+  border-radius: 10px;
+}
+#overlay{
+  position: absolute;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background:black;
+	opacity: 0.6;
+  
+}
+h1{
+  font-size: 3em;
+  z-index: 1000;
+  position: relative;
+  font-weight:900;
+  color: white;
+}
+button{
+  z-index:10000;
+  position: relative;
+  width: 200px;
+  padding:7px 0;
+  border-radius: 4px;
+  background-color:#B58314;// #C2B08C;
+  border: solid 2px #1F212D;
+  font-weight: 900;
+  color:#1F212D;
+ 
+}
